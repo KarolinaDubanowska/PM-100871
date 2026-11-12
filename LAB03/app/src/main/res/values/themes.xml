@@ -1,9 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.LAB02Kalkulator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <!-- Motyw aplikacji dla trybu jasnego -->
+    <!-- Przygotowane przez Karolina 100871 -->
+    <style name="Theme.LAB08App" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Kolory głowne -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/on_primary_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
 
-    <style name="Theme.LAB02Kalkulator" parent="Base.Theme.LAB02Kalkulator" />
+        <!-- Własne przypisania ról zasobów -->
+        <item name="cardBackgroundColor">@color/card_background_light</item>
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+    </style>
 </resources>
